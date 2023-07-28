@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<functions>
+	<category name="DirectTune">
+		<function name="Tune" export="DTune" repeatrate="0">
+
+			<parameter name="Direct Tune (102.1 Format)" type="string" default="91.1 1" description="Tune to Freq" />
+		</function>
+</category>
+
+  	
+  	<category name="HDSub">
+		<function name="HD Sub Channel" export="HDSub" repeatrate="0">
+
+			<parameter name="HD Sub Channel" type="string" default="0" description="Tune to Sub" />
+		</function>
+</category>
+	<category name="Uptime">
+		<function name="Get Uptime" export="sshUptime" repeatrate="0">
+		</function>
+  	</category>
+  	
+  	<category name="Disconnect">
+		<function name="Disconnect" export="Disco" repeatrate="0">
+		</function>
+  	</category>
+  	
+  	<category name="Command">
+		<function name="Send a String" export="Sstring" repeatrate="0">
+
+			<parameter name="Send Any String To NRSC5" type="string" default="Tune" description="Send A string" />
+		</function>
+</category>
+
+<category name="Raw String">
+		<function name="Send a Raw String" export="Raws" repeatrate="0">
+
+			<parameter name="Send Raw String To Rasperry Pi" type="string" default="" description="Send A Raw String" />
+		</function>
+</category>
+
+</functions>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<driverManifest>
+<driver author="Braden Hautman" configSettingsStream="ConfigSettings.xml" copyright="2023" deviceManufacturer="Raspberry Pi / NRSC-5" deviceModel="HD Tuner" driverVersion="1.0" id="{ff5487cb-2290-4e69-97ad-de44f37d6bdc}" minimumRuntimeVersion="1" minimumSoftwareVersion="7.0" name="NRSC-5" processorType="XP-8" systemFunctionsStream="SystemFunctions.xml" systemVariablesStream="SystemVariables.xml">
+<processorScript stream="NRSC-5.js"/>
+<package>
+<output filename="NRSC-5" public="false"/>
+<description>Driver For NRSC-5 HD Tuner</description>
+</package>
+</driver>
+</driverManifest>

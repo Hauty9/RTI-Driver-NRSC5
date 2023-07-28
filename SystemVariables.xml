@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<variables>
+  <category name="Frequency">
+    <variable name="Frequency" sysvar="Freq" type="integer" sample="1021"  />
+  </category>
+</variables>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <category name="Settings" description="">
+	    <setting type="string" name="Server" variable="server" default="" description="Remote server." />
+	    <setting type="integer" name="Port" variable="port" default="22" description="Server port.  Default is port 22." />
+		<setting type="mcinteger" name="Authentication" default="1" variable="authentication" description="Select the method with which to authenticate." >
+			<choice name="Username/Password" value="1"/>
+			<choice name="Public Key" value="2"/>
+		</setting>
+	    <setting type="string" name="Username" variable="username" default="root" description="Username to login with." />
+	    <setting type="string" name="Password" variable="password" default="" description="Password." />
+	</category>
+	<category name="Debug Settings" description="Driver debug options" hidden="true">
+		<setting type="boolean" name="Enable Trace" variable="DebugTrace" description="Enable verbose debug output" />
+	</category>
+</configuration>
